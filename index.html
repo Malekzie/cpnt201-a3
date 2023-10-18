@@ -7,10 +7,10 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header class="flex flex-wrap justify-between p-5 px-4 bg-orange-500">
+  <header class="flex flex-wrap justify-between p-5 px-4 bg-orange-500 sm:px-12">
     <h1 class="text-3xl cursor-pointer hover:text-white text-amber-200">Logo</h1>
     <nav class="flex items-center">
-      <ul class="flex gap-6 text-lg">
+      <ul class="flex gap-6 text-lg sm:gap-12">
         <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#">Home</a></li>
         <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#monster">Monsters</a></li>
         <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#plan">Plan your visit</a></li>
@@ -23,7 +23,7 @@
   <main class="max-h-screen bg-gradient-to-r from-red-500 via-orange-500 to-amber-500">
     <!-- Hero Section -->
     <section class="flex flex-col items-center justify-center h-screen">
-      <h1 class="mb-12 font-mono text-5xl text-orange-200">Welcome to the Damned Mansion</h1>
+      <h1 class="mb-12 font-mono text-5xl text-orange-200 sm:text-center">Welcome to the Damned Mansion</h1>
       <p class="max-w-md mb-12 text-lg text-orange-200">Where all your nightmares come true. Explore the dark corners of the
         mansion and come face to face with the most terrifying monsters you've
         ever seen. Our haunted house is not for the faint of heart, so come
@@ -117,8 +117,8 @@
     <!-- Pricing Section -->
     <section class="py-12 text-gray-300 bg-gray-800" id="price">
       <div class="container mx-auto">
-        <h2>Ticket Prices</h2>
-        <div> 
+        <h2 class="mb-6 text-3xl font-bold">Ticket Prices</h2>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3"> 
           <div>
             <h3>General Admission</h3>
             <p>$20</p>
