@@ -4,39 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind in a Branch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header>
-    <h1>Logo</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Monsters</a></li>
-        <li><a href="#">Plan your visit</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">About Us</a></li>
+  <header class="flex flex-wrap justify-between p-5 px-4 bg-orange-500">
+    <h1 class="text-3xl cursor-pointer hover:text-white text-amber-200">Logo</h1>
+    <nav class="flex items-center">
+      <ul class="flex gap-6 text-lg">
+        <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#">Home</a></li>
+        <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#monster">Monsters</a></li>
+        <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#">Plan your visit</a></li>
+        <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#price">Pricing</a></li>
+        <li class="cursor-pointer text-amber-200 hover:text-white"><a href="#about">About Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+    <!-- Hero Section -->
+    <section>
+      <h2>Hero</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    </section>
+    <!-- Monsters Gallery -->
     <section>
       <h2>Monsters</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
     </section>
+    <!-- Visit Section -->
     <section>
       <h2>Plan your visit</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
     </section>
+    <!-- Pricing Section -->
     <section>
       <h2>Pricing</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
     </section>
+    <!-- About Us Section -->
     <section>
       <h2>About Us</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
     </section>
-
+    <!-- Footer -->
     <footer>
       <p>&copy; 2020</p>
     </footer>
