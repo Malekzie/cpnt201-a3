@@ -86,30 +86,30 @@
     <!-- Visit Section -->
     <section class="py-12 text-gray-300 bg-gray-800" id="plan">
       <div class="container mx-auto">
-        <h2>Plan your visit</h2>
-        <form>
+        <h2 class="mb-6 text-3xl font-bold text-orange-200">Plan your visit</h2>
+        <form class="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <div>
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name" class="block m-2 text-lg font-medium text-orange-200">Full Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-orange-500" required>
           </div>
           <div>
-            <label for="name">Email Address</label>
-            <input type="email" name="email" id="email">
+            <label for="name" class="block mb-2 text-lg font-medium text-orange-200">Email Address</label>
+            <input type="email" name="email" id="email" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-orange-500" required>
           </div>
           <div>
-            <label for="date">Date of Visit</label>
-            <input type="date" id="date" name="date">
+            <label for="date" class="block mb-2 text-lg font-medium text-orange-200">Date of Visit</label>
+            <input type="date" id="date" name="date" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-orange-500">
           </div>
           <div>
-            <label for="time">Time of Visit</label>
-            <input type="time" id="time" name="time">
+            <label for="time" class="block mb-2 text-lg font-medium text-orange-200">Time of Visit</label>
+            <input type="time" id="time" name="time" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-orange-500">
           </div>
           <div>
-            <label for="message">Special Requests</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <label for="message" class="block mb-2 text-lg font-medium text-orange-200">Special Requests</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:border-orange-500"></textarea>
           </div>
-          <div>
-            <button type="submit">Book Your Tour</button>
+          <div class="sm:col-span-2">
+            <button type="submit" class="w-full px-4 py-2 text-gray-800 bg-orange-500 rounded-lg hover:bg-orange-600 focus:outline-none focus:bg-orange-600 hover:scale-110">Book Your Tour</button>
           </div>
         </form>
       </div>
